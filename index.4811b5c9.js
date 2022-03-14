@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Sam Wilkinson Design</title>
-		<meta name="description" content="An experimental portfolio">
-		<meta name="keywords" content="sam wilkinson, design, designer, ui, ux">
-		<meta name="author" content="Sam Wilkinson">
-		<link rel="shortcut icon" href="/favicon.a39e9ea8.ico">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-		<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="/index.c524e9bf.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-		<script>// modules are defined as an array
+// modules are defined as an array
 // [ module function, map of requires ]
 //
 // map of requires is short require name -> numeric require
@@ -155,12 +140,12 @@
       this[globalName] = mainExports;
     }
   }
-})({"5Ctw4":[function(require,module,exports) {
+})({"3T6JF":[function(require,module,exports) {
 var HMR_HOST = null;
 var HMR_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
-module.bundle.HMR_BUNDLE_ID = "daaab998678a51eb24d98149f289dcfc";
+module.bundle.HMR_BUNDLE_ID = "e8e2ba5ac6f48bd4bdbbf2e44811b5c9";
 // @flow
 /*global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE*/
 /*::
@@ -456,173 +441,35 @@ id) /*: string*/
   acceptedAssets[id] = true;
 }
 
-},{}],"6ARnJ":[function(require,module,exports) {
-document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");
-},{}]},["5Ctw4","6ARnJ"], "6ARnJ", "parcelRequire9ab4")
+},{}],"2CqzC":[function(require,module,exports) {
+// Get Date and Time
+var d = new Date();
+var dayOfWeek = d.getDay();
+var hour = d.getHours();
 
-</script>
-	</head>
-	<body class="loading">
-		<main>
-			<div class="off__canvas">
-				<button class="close__off-canvas">Close</button>
-			</div>
-			<header class="site__header mono" role="banner">
-				<a class="site-title" rel="author" href="/">
-					<div class="profile">
-						<div class="gradient"></div>
-						<div class="ellipse"></div>
-						<img id="avatar" src="/sam-wilkinson-profile.fe5ac6b4.jpg">	
-					</div>
-					<div id="active__dot">
-						<div class="live__dot"></div>
-						<h1 class="title">Sam Wilkinson</h1>
-					</div>
-				</a>
-				<h2 class="job__role title">
-					<span>UX/UI</span>
-					<span>Designer</span>
-				</h2>
-					<button class="open__off-canvas button button--this primary mono gradient">
-						<span>About Me</span>
-						<div class="marquee" aria-hidden="true">
-							<div class="marquee__inner">
-								<span>About Me</span>
-								<span>About Me</span>
-								<span>About Me</span>
-								<span>About Me</span>
-							</div>
-						</div>
-					</button>
-			</header>
-			<section class="items">
-				<article class="item">
-					<div class="item__imgwrap">
-						<div class="item__img" style="background-image:url(BareBiologyProject.2837ad48.jpg)
-"></div>
-					</div>
-					<button class="item__enter unbutton">
-						<svg class="item__enter-circle" vector-effect="non-scaling-stroke" width="600" height="600" viewbox="0 0 800 800">
-							<circle vector-effect="non-scaling-stroke" cx="400" cy="400" r="150"></circle>
-						</svg>
-					</button>
-					<h2 class="heading heading--item mono">
-						<span data-splitting="">April</span>
-						<span data-splitting="">2021</span>
-					</h2>
-					<div class="item__meta">
-						<span class="item__meta-row tag"><span>Digital</span><span>Branding</span><span>Web</span><span>UX</span><span>UI</span></span>
-						<span class="item__meta-row title"><span>Bare Biology</span></span>
-					</div>
-					<div class="item__excerpt">
-						<a class="item__excerpt-link link link--glitch" href="#content-1"><span>View Project</span></a>
-					</div>
-				</article>
-				<article class="item item--invert">
-					<div class="item__imgwrap">
-						<div class="item__img" style="background-image:url(DoraLarsonProject.eb0567d4.jpg)
-"></div>
-					</div>
-					<button class="item__enter unbutton">
-						<svg class="item__enter-circle" vector-effect="non-scaling-stroke" width="600" height="600" viewbox="0 0 800 800">
-							<circle vector-effect="non-scaling-stroke" cx="400" cy="400" r="150"></circle>
-						</svg>
-					</button>
-					<h2 class="heading heading--item mono">
-						<span data-splitting="">August</span>
-						<span data-splitting="">2020</span>
-					</h2>
-					<div class="item__meta">
-						<span class="item__meta-row tag"><span>Digital</span><span>Branding</span><span>Web</span><span>UX</span><span>UI</span></span>
-						<span class="item__meta-row title"><span>Dora Larson</span></span>
-					</div>
-					<div class="item__excerpt">
-						<a class="item__excerpt-link link link--glitch" href="#content-2"><span>View Project</span></a>
-					</div>
-				</article>
-				<article class="item">
-					<div class="item__imgwrap">
-						<div class="item__img" style="background-image:url(KentProject.9b86a0ad.jpg)
-"></div>
-					</div>
-					<button class="item__enter unbutton">
-						<svg class="item__enter-circle" vector-effect="non-scaling-stroke" width="600" height="600" viewbox="0 0 800 800">
-							<circle vector-effect="non-scaling-stroke" cx="400" cy="400" r="150"></circle>
-						</svg>
-					</button>
-					<h2 class="heading heading--item mono">
-						<span data-splitting="">March</span>
-						<span data-splitting="">2020</span>
-					</h2>
-					<div class="item__meta">
-						<span class="item__meta-row tag"><span>Digital</span><span>Branding</span><span>Web</span><span>UX</span><span>UI</span></span>
-						<span class="item__meta-row title"><span>Kent Brushes</span></span>
-					</div>
-					<div class="item__excerpt">
-						<a class="item__excerpt-link link link--glitch" href="#content-3"><span>View Project</span></a>
-					</div>
-				</article>
-			</section>
-			<section class="content">
-				<article class="content__article" id="content-1">
-					<h2 class="heading">
-						<span data-splitting="">Bare Biology</span>
-					</h2>
-					<div class="content__text">
-						<img class="full" src="/BareBiologyHero.30dad49a.jpg" alt="Some image">
-						<div class="section__video">
-							<video autoplay="" muted="" loop="" playsinline="" data-ratio="" width="1920" height="1080"><source src="/BareBiologyDigitalBrand.81250263.mp4" type="video/mp4"></video>
-						</div>
-						<div class="section__column">
-							<img class="half" src="/BareBiology1.a2ad523b.jpg" alt="Some image">
-							<img class="half" src="/BareBiology2.4d6901c1.jpg" alt="Some image">
-						</div>
-						<img class="full" src="/BareBiologyMacBook.e44e7f00.png" alt="Some image">
-						<div class="section__column">
-							<img class="third" src="/BareBiologyiPhoneHome.868036d1.png" alt="Some image">
-							<img class="third" src="/BareBiologyiPhoneCollection.6391825e.png" alt="Some image">
-							<img class="third" src="/BareBiologyiPhoneProduct.14a0d5ca.png" alt="Some image">
-						</div>
-						<img class="full" src="/BareBiology3.07267cce.jpg" alt="Some image">
-						<div class="section__design">
-						</div>
-						<h4>Case Study coming soon</h4>
-					</div>
-				</article>
-				<article class="content__article content__article--invert" id="content-2">
-					<h2 class="heading">
-						<span data-splitting="">Dora Larson</span>
-					</h2>
-					<div class="content__text">
-						<img src="/DoraLarsonHero.ae9a158c.jpg" alt="Some image">
-						<h4>Case Study coming soon</h4>
-					</div>
-				</article>
-				<article class="content__article" id="content-3">
-					<h2 class="heading">
-						<span data-splitting="">Kent Brushes</span>
-					</h2>
-					<div class="content__text">
-						<img src="/KentHero.e2a26ef5.jpg" alt="Some image">
-						<h4>Case Study coming soon</h4>
-					</div>
-				</article>
-				<button class="content__back unbutton">
-					<div class="triangle--left"></div>
-					<div class="back__button">Back</div>
-				</button>
-			</section>
-			<div class="frame frame--footer">
-				<a class="social" href="https://instagram.com/samwilkinsondesign"><div class="svg__icon"><svg id="instagram" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C5.827 0 5.555.01 4.702.048 3.85.088 3.27.222 2.76.42c-.526.204-.973.478-1.417.923-.445.444-.72.89-.923 1.417-.198.51-.333 1.09-.372 1.942C.008 5.555 0 5.827 0 8s.01 2.445.048 3.298c.04.852.174 1.433.372 1.942.204.526.478.973.923 1.417.444.445.89.72 1.417.923.51.198 1.09.333 1.942.372.853.04 1.125.048 3.298.048s2.445-.01 3.298-.048c.852-.04 1.433-.174 1.942-.372.526-.204.973-.478 1.417-.923.445-.444.72-.89.923-1.417.198-.51.333-1.09.372-1.942.04-.853.048-1.125.048-3.298s-.01-2.445-.048-3.298c-.04-.852-.174-1.433-.372-1.942-.204-.526-.478-.973-.923-1.417-.444-.445-.89-.72-1.417-.923-.51-.198-1.09-.333-1.942-.372C10.445.008 10.173 0 8 0zm0 1.44c2.136 0 2.39.01 3.233.048.78.036 1.203.166 1.485.276.374.145.64.318.92.598.28.28.453.546.598.92.11.282.24.705.276 1.485.038.844.047 1.097.047 3.233s-.01 2.39-.05 3.233c-.04.78-.17 1.203-.28 1.485-.15.374-.32.64-.6.92-.28.28-.55.453-.92.598-.28.11-.71.24-1.49.276-.85.038-1.1.047-3.24.047s-2.39-.01-3.24-.05c-.78-.04-1.21-.17-1.49-.28-.38-.15-.64-.32-.92-.6-.28-.28-.46-.55-.6-.92-.11-.28-.24-.71-.28-1.49-.03-.84-.04-1.1-.04-3.23s.01-2.39.04-3.24c.04-.78.17-1.21.28-1.49.14-.38.32-.64.6-.92.28-.28.54-.46.92-.6.28-.11.7-.24 1.48-.28.85-.03 1.1-.04 3.24-.04zm0 2.452c-2.27 0-4.108 1.84-4.108 4.108 0 2.27 1.84 4.108 4.108 4.108 2.27 0 4.108-1.84 4.108-4.108 0-2.27-1.84-4.108-4.108-4.108zm0 6.775c-1.473 0-2.667-1.194-2.667-2.667 0-1.473 1.194-2.667 2.667-2.667 1.473 0 2.667 1.194 2.667 2.667 0 1.473-1.194 2.667-2.667 2.667zm5.23-6.937c0 .53-.43.96-.96.96s-.96-.43-.96-.96.43-.96.96-.96.96.43.96.96z"></path></svg></div></a>
-				<a class="social" href="https://github.com/samwilkinsondesign"><div class="svg__icon"><svg id="github" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.292 6.533 5.47 7.59.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.09-.202-.36-1.015.07-2.117 0 0 .67-.215 2.2.82.64-.178 1.32-.266 2-.27.68.004 1.36.092 2 .27 1.52-1.035 2.19-.82 2.19-.82.43 1.102.16 1.915.08 2.117.51.56.82 1.274.82 2.147 0 3.073-1.87 3.75-3.65 3.947.28.24.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.14.46.55.38C13.71 14.53 16 11.53 16 8c0-4.418-3.582-8-8-8"></path></svg></div></a>
-				<a class="email" href="mailto:samwilkinsondesign@gmail.com">samwilkinsondesign@gmail.com</a>
-				<a class="copyright" href="https://instagram.com/samwilkinsondesign">©samwilkinsondesign 2022</a>
-			</div>
-		</main>
-		<svg class="cursor" width="80" height="80" viewbox="0 0 80 80">
-			<circle class="cursor__inner" cx="40" cy="40" r="20"></circle>
-		</svg>
-		<script src="/index.2142d36c.js"></script>
-		<script src="/index.4811b5c9.js"></script>
-	</body>
-</html>
+// Active Dot ID 
+var element = document.getElementById("active__dot");
+
+if (dayOfWeek > 0 && dayOfWeek < 6 && hour > 8 && hour < 17) {
+    element.classList.add("online");
+}
+
+// Off Canvas
+var html = document.documentElement; 
+
+document.querySelector('.open__off-canvas').onclick = function(){
+  html.classList.add('active');
+};
+
+document.querySelector('.close__off-canvas').onclick = function(){
+  html.classList.remove('active'); 
+};
+
+html.onclick = function(event){
+  if (event.target === html){
+    html.classList.remove('active');
+  }
+};
+},{}]},["3T6JF","2CqzC"], "2CqzC", "parcelRequire9ab4")
+
+//# sourceMappingURL=index.4811b5c9.js.map
